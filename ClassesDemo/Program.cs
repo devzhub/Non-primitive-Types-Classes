@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ClassesDemo.Maths;
+using System;
 
 namespace ClassesDemo
 {
@@ -10,6 +7,16 @@ namespace ClassesDemo
     {
         static void Main(string[] args)
         {
+            var person = new Person();
+            person.FirstName = "Developerz";
+            person.LastName = "Hub";
+            person.introduce();
+
+            Calculator calculator = new Calculator();
+            var result = calculator.Add(2, 3);
+            Console.WriteLine(result);
+
+            Console.ReadKey();
         }
     }
 }

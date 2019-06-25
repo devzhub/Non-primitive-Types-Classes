@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D89CD47-C30F-4D8C-BA1D-8ED1F4F88C52}</ProjectGuid>
+    <ProjectGuid>{0861FFF2-0C6A-4296-8BAC-E605A716A094}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClassesDemo</RootNamespace>
-    <AssemblyName>ClassesDemo</AssemblyName>
+    <RootNamespace>Overflowing</RootNamespace>
+    <AssemblyName>Overflowing</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Maths\Calculator.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
